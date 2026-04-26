@@ -1,22 +1,16 @@
-# 自己紹介
-## 名前
-Comugi
-## 年齢
-02 yo
+#### 自己紹介
+
+何気ないきっかけからサーバーを作り始めた自宅サーバー勢。
+はじめまして。こむぎです。
+
 ---
-## 活動中のプロジェクト
-- MugicBot (2026.03~)
-<!--
-**mugicomugi/mugicomugi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### **活動中のプロジェクト**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* ALLIANCE-PLANET - 2025.04~2025.10
+
+  * Discordストリーマー鯖 Allianceより発の配信者向け参加型Minecraftサーバー
+* MugicBot - 2026.03~現在
+
+  * 日本国内、ツクヨミ - 超かぐや姫！ファン鯖から生まれました。
+  * HRTF（空間オーディオ）が利用できる新たな音楽Bot
