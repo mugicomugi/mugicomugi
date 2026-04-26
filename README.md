@@ -1,5 +1,11 @@
-## Hi there 👋
-
+# 自己紹介
+## 名前
+Comugi
+## 年齢
+02 yo
+---
+## 活動中のプロジェクト
+- MugicBot (2026.03~)
 <!--
 **mugicomugi/mugicomugi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
