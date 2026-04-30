@@ -31,6 +31,7 @@
 * ツクヨミ - 超かぐや姫！ファン鯖 - 2026.04~現在
   * Netflix映画「超かぐや姫！」の非公式Discordファンサーバーのスタッフに就任
     * 情報システム部 所属
+    * Security Management
 * KuronekoServer - 2026.04~現在
   * 開発員として就任
     * Artifactorの開発
