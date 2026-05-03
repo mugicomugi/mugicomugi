@@ -6,10 +6,6 @@
 
 ---
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mugicomugi)](https://github.com/mugicomugi/github-readme-stats)
-
----
-
 ### **プロジェクト**
 
 * ALLIANCE-PLANET - 2025.04~2025.10
