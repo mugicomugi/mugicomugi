@@ -42,3 +42,8 @@
 これからもっと大規模プロジェクトに努め、より活動を活発に行えればと思っています！
 
 関わる人、皆様何卒よろしくお願いいたします！！
+
+---
+
+### GitHub Stats
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mugicomugi)](https://github.com/anuraghazra/github-readme-stats)
