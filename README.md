@@ -37,6 +37,18 @@
 
 ---
 
+### 実案件
+
+* 防災無線IPネットワーク構築
+  * 既設更新・新規敷設などに従事
+  * 使用機器：NEC IX/QX
+
+* 施設内防犯カメラ設置に伴うネットワーク構築
+  * 固定IPネットワーク <-> IPsec/VPN <-> LTEネットワーク
+  * 使用機器：NEC IX/WA
+
+---
+
 ### 一言
 
 これからもっと大規模プロジェクトに努め、より活動を活発に行えればと思っています！
@@ -44,6 +56,3 @@
 関わる人、皆様何卒よろしくお願いいたします！！
 
 ---
-
-### GitHub Stats
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=mugicomugi&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
