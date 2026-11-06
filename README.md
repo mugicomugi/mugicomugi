@@ -13,7 +13,6 @@
   * Discordストリーマー鯖 Allianceより発の配信者向け参加型Minecraftサーバー
 * MugicBot - 2026.03~現在
 
-  * 日本国内、ツクヨミ - 超かぐや姫！ファン鯖から生まれました。
   * HRTF（空間オーディオ）が利用できる新たな音楽Bot
 
 ---
@@ -27,7 +26,6 @@
 * ツクヨミ - 超かぐや姫！ファン鯖 - 2026.04~現在
   * Netflix映画「超かぐや姫！」の非公式Discordファンサーバーのスタッフに就任
     * 情報システム部 所属
-    * Security Management
 * KuronekoServer - 2026.04~現在
   * 開発員として就任
     * Artifactorの開発
