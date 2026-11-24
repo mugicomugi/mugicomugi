@@ -15,7 +15,9 @@
 * ONU - 10G-ONU
 * HGW - XG-200KI（192.168.1.0/24）
 * 隔離RT - Archer AX23V (192.168.2.0/24)
+
 ※隔離RTはOpenWRTへ書き換え済み
+
 ※Catalyst 3650-24TS-Sが余ってるので活用したい…。
 
 ---
