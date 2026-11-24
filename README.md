@@ -1,87 +1,61 @@
-### 自己紹介
+```rust
+//! From a homelab to a data center.
 
-何気ないきっかけからサーバーを作り始めた自宅サーバー勢。
+#![forbid(unsafe_code)]
 
-はじめまして。こむぎです。
+pub const AUTHOR: &str = "Comugi";
 
----
+type Record = (&'static str, &'static str, &'static str);
 
-### 自宅サーバー構成（ノード＆NW）
+pub mod homelab {
+    // Hostname, Processor, Memory (GiB)
+    pub const COMPUTE: &[(&str, &str, u16)] = &[
+        ("node01", "Core i7-8700",     48),
+        ("node02", "Core i7-2600",     16),
+        ("node03", "Xeon E5-2640 v4",  64),
+    ];
 
-#### ノード一覧
+    pub const NETWORK: &[(&str, &str)] = &[
+        ("WAN",      "10G-ONU"),
+        ("Gateway",  "XG-200KI"),
+        ("Isolated", "Archer AX23V / OpenWrt"),
+    ];
 
-* node01 - Core i7-8700 / RAM 48GB
-* node02 - Core i7-2600 / RAM 16GB
-* node03 - Xeon E5-2640 v4 / RAM 64GB
+    // TODO: Integrate Catalyst 3650-24TS-S.
+}
 
-#### NW一覧
+pub mod projects {
+    use super::Record;
 
-* ONU - 10G-ONU
-* HGW - XG-200KI（192.168.1.0/24）
-* 隔離RT - Archer AX23V (192.168.2.0/24)
+    pub const HISTORY: &[Record] = &[
+        ("ALLIANCE-PLANET", "Minecraft Server",         "2025.04–2025.10"),
+        ("MugicBot",       "HRIR / 9.1.4 Spatial Audio", "2026.03–Present"),
+    ];
+}
 
-※隔離RTはOpenWRTへ書き換え済み
+pub mod communities {
+    use super::Record;
 
-※Catalyst 3650-24TS-Sが余ってるので活用したい…。
+    pub const AFFILIATIONS: &[Record] = &[
+        ("Alliance",         "Former Technical Lead", "2025.04–2025.10"),
+        ("SHIN DATA CENTER", "Member",                "2024.10–Present"),
+        ("Tsukuyomi",        "IT Systems Lead",        "2026.04–Present"),
+        ("KuronekoServer",   "Artifactor Developer",   "2026.04–Present"),
+        ("Luna Project",     "Yuzuki Developer",       "2026.04–Present"),
+    ];
+}
 
----
+pub mod experience {
+    pub const DOMAINS: &[&str] = &[
+        "Access Control & ACL Management",
+        "Core Network Architecture & Redundancy",
+        "Disaster Prevention IP Infrastructure",
+        "IPsec VPN & LTE Integration",
+        "Surveillance Network Infrastructure",
+    ];
 
-### **プロジェクト**
-
-* ALLIANCE-PLANET - 2025.04~2025.10
-
-  * Discordストリーマー鯖 Allianceより発の配信者向け参加型Minecraftサーバー
-* MugicBot - 2026.03~現在
-
-  * HRIR（空間オーディオ）が利用できる新たな音楽Bot
-  * 14ch (9.1.4ch) の仮想サラウンドが体験可能
-
----
-
-### コミュニティ
-
-* Alliance - 2025.04~2025.10
-  * クラブリーダーとして技術部の部長に就任（退任済）
-* SHIN DATA CENTER - 2024.10~現在
-  * 自宅をデータセンター化したいという目標で建てられたコミュニティ
-  * 表向きはMUGICというコミュニティで活動中（現在 9名所属）
-* ツクヨミ - 超かぐや姫！ファン鯖 - 2026.04~現在
-  * Netflix映画「超かぐや姫！」の非公式Discordファンサーバーのスタッフに就任
-    * 情報システム部 リーダー
-* KuronekoServer - 2026.04~現在
-  * 開発員として就任
-    * Artifactorの開発
-* Luna Project - 2026.04~現在
-  * 開発員として就任
-    * ゆづきの開発
-
----
-
-### 実案件
-
-* Cisco ACL保守管理
-  * 指定されたプライベートIPアドレスを既存のACLへ追加設定
-  * 必要に応じて新規ACL・ACL削除等
-  * 使用機器：Cisco Catalyst/Nexus
-
-* Ciscoを用いた基幹ネットワーク構築
-  * スタッキング等を用いた冗長構成を意識した新規ネットワーク構築
-  * 使用機器：Cisco Catalyst/Nexus
-
-* 防災無線IPネットワーク構築
-  * 既設更新・新規敷設などに従事
-  * 使用機器：NEC IX/QX
-
-* 施設内防犯カメラ設置に伴うネットワーク構築
-  * 固定IPネットワーク <-> IPsec/VPN <-> LTEネットワーク
-  * 使用機器：NEC IX/WA
-
----
-
-### 一言
-
-これからもっと大規模プロジェクトに努め、より活動を活発に行えればと思っています！
-
-関わる人、皆様何卒よろしくお願いいたします！！
-
----
+    pub const PLATFORMS: &[&str] = &[
+        "Cisco Catalyst / Nexus",
+        "NEC IX / QX / WA",
+    ];
+}
