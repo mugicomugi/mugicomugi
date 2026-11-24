@@ -8,9 +8,13 @@
 
 ### 自宅サーバー構成（ノード＆NW）
 
+#### ノード一覧
+
 * node01 - Core i7-8700 / RAM 48GB
 * node02 - Core i7-2600 / RAM 16GB
 * node03 - Xeon E5-2640 v4 / RAM 64GB
+
+#### NW一覧
 
 * ONU - 10G-ONU
 * HGW - XG-200KI（192.168.1.0/24）
