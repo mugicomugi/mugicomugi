@@ -1,8 +1,4 @@
 ```rust
-//! From a homelab to a data center.
-
-#![forbid(unsafe_code)]
-
 pub const AUTHOR: &str = "Comugi";
 
 type Record = (&'static str, &'static str, &'static str);
@@ -20,8 +16,6 @@ pub mod homelab {
         ("Gateway",  "XG-200KI"),
         ("Isolated", "Archer AX23V / OpenWrt"),
     ];
-
-    // TODO: Integrate Catalyst 3650-24TS-S.
 }
 
 pub mod projects {
